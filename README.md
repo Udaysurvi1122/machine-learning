@@ -9,7 +9,7 @@ This tutorial covers Generative Adversarial Networks from theory to implementati
 - The minimax game formulation and Nash equilibrium
 - DCGAN Generator and Discriminator architecture (PyTorch)
 - The alternating training loop with proper gradient blocking
-- Mode collapse — diagnosis and solutions (WGAN, spectral norm, minibatch discrimination)
+- Mode collapse diagnosis and solutions (WGAN, spectral norm, minibatch discrimination)
 - Notable GAN variants: DCGAN, WGAN, Pix2Pix, CycleGAN, StyleGAN2
 - FID score progress from 80 (DCGAN 2015) to 2.8 (StyleGAN2 2020)
 
@@ -19,9 +19,9 @@ This tutorial covers Generative Adversarial Networks from theory to implementati
 
 | File | Description |
 |------|-------------|
-| `tutorial_08_gans.pdf` | Primary submission — tutorial PDF (<2000 words, 5 figures) |
+| `tutorial_08_gans.pdf` | Primary submission tutorial PDF (<2000 words, 5 figures) |
 | `tutorial_08_gans.docx` | Word source document |
-| `tutorial_08_gans.ipynb` | Jupyter notebook — full runnable code, alt-text, references |
+| `tutorial_08_gans.ipynb` | Jupyter notebook full runnable code, alt-text, references |
 | `README.md` | This file |
 | `LICENSE` | MIT Licence |
 | `fig1_gan_architecture.png` | GAN flow diagram (Generator vs Discriminator) |
@@ -66,11 +66,11 @@ Training: Adam(lr=2e-4, β=(0.5,0.999)) for both G and D.
 ## Accessibility
 
 - **Colourblind-safe palette**  deep indigo (`#2D1B69`) and electric lime (`#A8E63D`) pass WCAG AA under deuteranopia, protanopia and tritanopia
-- **Hatch patterns** on all bar charts (`//`, `xx`, `\\`, `..`) — information never by colour alone
+- **Hatch patterns** on all bar charts (`//`, `xx`, `\\`, `..`) information never by colour alone
 - **Distinct marker shapes** on scatter plots (circle, square, triangle, diamond, down-triangle, plus)
 - **Alt-text captions** printed below every figure cell in the notebook
 - **Structured H1 → H2 heading hierarchy** for screen-reader navigation
-- **High-contrast** dark (`#0D0A1A`) on light (`#FAFAF8`) — contrast ratio >14:1
+- **High-contrast** dark (`#0D0A1A`) on light (`#FAFAF8`) contrast ratio >14:1
 
 ---
 
@@ -85,4 +85,4 @@ Training: Adam(lr=2e-4, β=(0.5,0.999)) for both G and D.
 
 ---
 
-**Licence:** MIT — see `LICENSE`
+**Licence:** MIT see `LICENSE`
