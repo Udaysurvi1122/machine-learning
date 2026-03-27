@@ -1,10 +1,5 @@
 # Tutorial 08 — Generative Adversarial Networks (GANs)
 ## Teaching Two Neural Networks to Outsmart Each Other
-
-**University of Hertfordshire | MLNN Assignment 2025**  
-**Colour theme:** Deep Indigo (`#2D1B69`) / Electric Lime (`#A8E63D`)  
-**GitHub:** https://github.com/yourusername/ml-tutorials/tree/main/tutorial-08
-
 ---
 
 ## Overview
@@ -53,7 +48,7 @@ pip install torch torchvision
 jupyter notebook tutorial_08_gans.ipynb
 ```
 
-Run all cells top to bottom (`Kernel → Restart & Run All`). All 5 figures regenerate and save as `.png` files. The full PyTorch DCGAN implementation is shown as reference code — training MNIST requires a GPU (~30 min) but all figures run on CPU in under 1 minute.
+Run all cells top to bottom (`Kernel → Restart & Run All`). All 5 figures regenerate and save as `.png` files. The full PyTorch DCGAN implementation is shown as reference code training MNIST requires a GPU (~30 min) but all figures run on CPU in under 1 minute.
 
 ---
 
@@ -70,7 +65,7 @@ Training: Adam(lr=2e-4, β=(0.5,0.999)) for both G and D.
 
 ## Accessibility
 
-- **Colourblind-safe palette** — deep indigo (`#2D1B69`) and electric lime (`#A8E63D`) pass WCAG AA under deuteranopia, protanopia and tritanopia
+- **Colourblind-safe palette**  deep indigo (`#2D1B69`) and electric lime (`#A8E63D`) pass WCAG AA under deuteranopia, protanopia and tritanopia
 - **Hatch patterns** on all bar charts (`//`, `xx`, `\\`, `..`) — information never by colour alone
 - **Distinct marker shapes** on scatter plots (circle, square, triangle, diamond, down-triangle, plus)
 - **Alt-text captions** printed below every figure cell in the notebook
