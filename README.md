@@ -1,4 +1,4 @@
-# Tutorial 08 — Generative Adversarial Networks (GANs)
+# Generative Adversarial Networks (GANs)
 ## Teaching Two Neural Networks to Outsmart Each Other
 ---
 
